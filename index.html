@@ -19,12 +19,12 @@
     <div class="container_center"></div>
     <header>
         <section class="header_contact-part">
-            <div class=" container container_space-between ">
-                <div class="contact">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <span class="contact-info"> Info@gmail.com </span>
-                    <i class="fa fa-phone" aria-hidden="true"></i>
-                    <span class="contact-info">555-555-5555</span>
+            <div class=" container container_space-between header_contact-part__inner">
+                <div class="container_space-between contact">
+                  <div><i class="fa fa-envelope" aria-hidden="true"></i>
+                   <a href=""> <span class="contact-info"> Info@gmail.com </span></a></div>
+                  <div><i class="fa fa-phone" aria-hidden="true"></i>
+                  <a href=""><span class="contact-info">555-555-5555</span></a></div>
                 </div>
                 <div class=" header__icon">
                     <button type="submit"><i class="fa fa-facebook" aria-hidden="true"></i></button>
@@ -36,15 +36,19 @@
         </section>
         <section class="header_menu">
             <div class=" container   header_menu__inner">
-                <div class="nav">
+                   
+                    <a class="toggle open" href="#nav"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                    <div id="nav">
+                        <a class="toggle close" href="#">x</a>        
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Services</a></li>
-                        <li><a href="#">Submit Requirements</a></li>
+                       <li><a href="#">Submit<span> Requirements</span></a></li>
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Contact us</a></li>
                     </ul>
+                    
                 </div>
                 <button class="header__button" type="submit">Get Quote Now</button>
             </div>
@@ -54,7 +58,7 @@
                 <img class="table" src="Images/table.png">
                 <div class="header_text">
                     <h1>Website <br>
-                        Design & dEVELOPMENT</h1>
+                        DESIGN & DEVELOPMENT</h1>
                     <span> Make Product Faster</span><br>
                     <button class="header__button header__button_size" type="submit">Contact Us</button>
                 </div>
@@ -72,35 +76,39 @@
 
     </header>
     <section class="services">
-        <div class="container container_space-between services__inner">
+        <div class="container services__inner">
+            <div class="column_service">
             <div class=" laptop">
                 <img src="Images/laptop.png" alt="Laptop">
                 <h3>Web design</h3>
-                <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed<br> do eiusmod tempor incididunt<br>
-                    ut labore et dolore magna<br> aliqua.Uteniad..Readmore</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua.Uteniad..Readmore</p>
             </div>
             <div class="  code">
                 <img src="Images/code.png" alt="Laptop">
                 <h3>Web development</h3>
-                <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed<br> do eiusmod tempor incididunt<br>
-                    ut labore et dolore magna<br> aliqua.Uteniad..Readmore</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua.Uteniad..Readmore</p>
             </div>
+        </div>
+        <div class="column_service">
             <div class=" drawing">
                 <img src="Images/drawing.png" alt="Laptop">
                 <h3>Graphic design</h3>
-                <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed<br> do eiusmod tempor incididunt<br>
-                    ut labore et dolore magna<br> aliqua.Uteniad..Readmore</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua.Uteniad..Readmore</p>
             </div>
             <div class=" social-media">
                 <img src="Images/social-media.png" alt="Laptop">
                 <h3>Social follower</h3>
-                <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed<br> do eiusmod tempor incididunt<br>
-                    ut labore et dolore magna<br> aliqua.Uteniad..Readmore</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua.Uteniad..Readmore</p>
             </div>
+        </div>
         </div>
     </section>
     <section class="portfolio">
-        <h2>Our <b>PROTFOLIO</b></h2>
+        <h2>OUR <b>PROTFOLIO</b></h2>
         <div class="container container_space-between portfolio__inner">
             <img class="photo_hand-left" src="Images/left_hand.png">
             <div class=" photo">
@@ -123,18 +131,20 @@
         </div>
     </section>
     <section class="BQ">
-        <div class="container container_space-between BQ__inner">
-            <div class="BQ_section">
-            <div class="BQ-red">
+        <div class="container  BQ__inner">
+          <div class="column">
+               <div class="BQ_section">
+            <div class="BQ_red">
                 <p>Donec se tellus eget sapien fringillanonumm Suspendisse quam sem, consequat at, commodo vitae,
                     feugiat in, nunc. Morbi imperdiet augue quis tellus. Lorem ipsum dolor sit amet. Quisque aliquam.
                     Donec consequat at, commodo vitae, feugiat in, nunc. </p>
             </div>
-            <div class="triangle_down_red"></div>
-            
+            <div class="triangle_down_red"></div><br>
+            <div class="name"> John CHAHCAH<br>
+                <span> Ceo</span></div>
         </div>
         <div class="BQ_section">
-            <div class="BQ-blue">
+            <div class="BQ_blue">
                 <p>Donec se tellus eget sapien fringillanonumm Suspendisse quam sem, consequat at, commodo vitae,
                     feugiat in, nunc. Morbi imperdiet augue quis tellus. Lorem ipsum dolor sit amet. Quisque aliquam.
                     Donec consequat at, commodo vitae, feugiat in, nunc. </p>
@@ -144,16 +154,20 @@
            <div class="name"> John CHAHCAH<br>
             <span> Ceo</span></div>
             </div>
+        </div>
+       <div class="column">
             <div class="BQ_section">
-            <div class="BQ-red">
+            <div class="BQ_red">
                 <p>Donec se tellus eget sapien fringillanonumm Suspendisse quam sem, consequat at, commodo vitae,
                     feugiat in, nunc. Morbi imperdiet augue quis tellus. Lorem ipsum dolor sit amet. Quisque aliquam.
                     Donec consequat at, commodo vitae, feugiat in, nunc. </p>
             </div>
-            <div class="triangle_down_red"></div>
+            <div class="triangle_down_red"></div><br>
+            <div class="name"> John CHAHCAH<br>
+                <span> Ceo</span></div>
         </div>
         <div class="BQ_section">
-            <div class="BQ-blue">
+            <div class="BQ_blue">
                 <p>Donec se tellus eget sapien fringillanonumm Suspendisse quam sem, consequat at, commodo vitae,
                     feugiat in, nunc. Morbi imperdiet augue quis tellus. Lorem ipsum dolor sit amet. Quisque aliquam.
                     Donec consequat at, commodo vitae, feugiat in, nunc. </p>
@@ -163,6 +177,7 @@
                 <span> Ceo</span></div>
         </div>
         </div>
+    </div>
     </section>
     <section class=" follow-us">
         <div class="container   follow-us__inner">
@@ -216,7 +231,6 @@
                 <div class="border border_size">
                     <h4>SignUp for Newsletter</h4>
                 </div>
-
                 <input class="place" type="text" placeholder=""><br>
                 <input class="place" type="text" placeholder=""><br>
                 <button class="button_send" type="submit">SEND</button>
@@ -225,7 +239,7 @@
         <div class="container border border-between"></div>
         <div class="container container_space-between footer__inner_menu">
             <span>Copyright@ 2015 PRIVACY POLICY</span>
-            <div class="nav">
+            <div class="footer_nav">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About us</a></li>
