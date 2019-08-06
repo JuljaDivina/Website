@@ -1263,10 +1263,10 @@ footer {
     width: 98vw;
     flex-direction: column;
     text-align: left;
-    font-size: 18px;
+    font-size: 17px;
   }
   .about {
-    width: 98vw;
+    width: 96vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -1275,7 +1275,7 @@ footer {
   .footer__inner h4 {
     font-size: 22px;
   }
-  .text_about{width: 98vw;
+  .text_about{width: 94vw;
     display: flex;
     
     justify-content: space-between;}
@@ -1284,7 +1284,7 @@ footer {
     text-align: center;
   }
   .footer__width {
-    width: 97vw;
+    width: 94vw;
     padding: 0px;
     
   }
@@ -1473,7 +1473,7 @@ footer {
 }
 @media (max-width: 991px) {
   .border-between {
-    width: 98vw;
+    width: 96vw;
     margin-bottom: 5px;
     margin-top: 10px;
   }
